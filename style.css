@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Header Navbar */
+#navbar{
+    background-color: #333;    
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#navbar .container{
+    color: white;
+    width: 90%;    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container .mini-container{
+    margin: 10px;
+}
+
+#navbar .container .satu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#navbar .container .satu img{
+    width: 70px;
+}
+
+#navbar .container .satu h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#navbar .container .dua{  
+    display: flex;
+    justify-content: flex-end;    
+    flex-direction: column;
+    align-items: end;
+}
+
+#navbar .container .dua .box{
+    margin: 10px;
+}
+
+#navbar .container .dua .desc h4{
+    font-size: 24px;
+}
+
+#navbar .container .dua .nav ul{
+    display: flex;    
+    list-style: none;
+    gap: 15px;
+}
+
+#navbar .container .dua ul a{
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;    
+}
+
+#navbar .container .dua ul a:hover{
+    background-color: #777;
+}
+
+/* Header Carousel */
+#carousel{
+    height: 400px;
+    background-image: url(image/carousel.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel .container{
+    width: 90%;
+    display: flex;        
+    justify-content: center;       
+}
+
+#carousel .container .box h3{
+    font-size: 26px;
+    margin: 15px;
+    
+}
+
+#carousel .container .box p{
+    margin: 15px;
+}
+
+#carousel .container .box .seconhand{    
+    background-color: #e69d02d5;
+    padding: 5px;
+    margin: 0 4px;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#carousel .container .box .seconhand:hover{
+    background-color: #ca8a01d5;
+}
+
+/* Section Hero */
+#hero{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+#hero .container{
+    width: 90%;        
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#hero .container .text{
+    margin: 15px;
+}
+
+#hero .container h4{
+    font-size: 24px;    
+}
+
+#hero .container p{
+    margin: 30px 0;
+}
+
+#hero .container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;    
+    background-color: #555;
+    border-radius: 3px;    
+}
+
+#hero .container a:hover{
+    background-color: #777;
+}
+
+/* Section navigasi */
+#navigasi{
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#navigasi .container{    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigasi .container ul{
+    display: flex;
+    justify-content: center;    
+    gap: 20px;
+    list-style: none;
+    
+}
+
+#navigasi .container ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#navigasi .container ul li a:hover{
+    background-color: #777;
+}
+
+/* Section Produk */
+#produk{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#produk .container{
+    width: 90%;        
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px;
+}
+
+#produk .container .mini-container{    
+    width: 230px;    
+    text-align: center;    
+}
+
+#produk .container .mini-container .box{
+    width: 100%;    
+    padding: 20px;
+    background-color: #e4e3e3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    box-sizing: border-box;  
+    border-radius: 10px; 
+}
+
+#produk .container .mini-container .box .img{    
+    background-image: url(image/kotak.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    margin: 0 0 20px 0;
+    width: 80%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#produk .container .mini-container .box .desc{
+    line-height: 30px;
+}
+
+#produk .container .mini-container .box h5{
+    font-size: 18px;
+}
+
+#produk .container .mini-container .box p{
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+
+#produk .container .mini-container .box a{    
+    background-color: #555;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#produk .container .mini-container .box a:hover{
+    background-color: #555;
+}
+
+/* Footer */
+#footer{
+    background-color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#footer .container{
+    width: 90%;    
+    text-align: center;
+    color: white;
+}
